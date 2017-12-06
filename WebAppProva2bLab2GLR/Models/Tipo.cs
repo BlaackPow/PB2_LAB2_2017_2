@@ -9,5 +9,8 @@ namespace WebAppProva2bLab2GLR.Models
     {
         public  int TipoId { get; set; }
         public string Descricao { get; set; }
+        public Processo Processo { get; set; }
+        public List<Audiencia>Audiencia { get; set; }
+
     }
 }

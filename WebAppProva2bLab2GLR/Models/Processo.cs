@@ -11,6 +11,7 @@ namespace WebAppProva2bLab2GLR.Models
         public DateTime DataEntrada { get; set; }
         public DateTime DataSaida { get; set; }
         public Boolean Situacao{ get; set; }
-        public Pessoa Pessoa { get; set; }
+        public Pessoa Pessoa { get; set; }     
+        public List<Tipo>Tipo{ get; set; }
     }
 }

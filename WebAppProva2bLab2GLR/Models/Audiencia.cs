@@ -10,6 +10,7 @@ namespace WebAppProva2bLab2GLR.Models
         public  int AudienciaId { get; set; }
         public DateTime Data { get; set; }
         public string Detalhes { get; set; }
+        public List<Processo>processo { get; set; }
 
     }
 }
