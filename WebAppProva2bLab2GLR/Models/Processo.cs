@@ -13,5 +13,6 @@ namespace WebAppProva2bLab2GLR.Models
         public Boolean Situacao{ get; set; }
         public Pessoa Pessoa { get; set; }     
         public List<Tipo>Tipo{ get; set; }
+        public List<Audiencia>Audiencia { get; set; }
     }
 }

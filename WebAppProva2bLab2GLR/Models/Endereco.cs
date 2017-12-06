@@ -12,6 +12,6 @@ namespace WebAppProva2bLab2GLR.Models
         public string Bairro { get; set; }
         public string CEP { get; set; }
         public string Numero { get; set; }
-
+        public Pessoa Pessoa { get; set; }
     }
 }
